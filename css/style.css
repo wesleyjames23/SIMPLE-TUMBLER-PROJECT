@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general css */
+
+/* HEADER SECTION */
+
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.tumblers-text {
+  font-size: 1.4rem;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+/* slider */
+
+.slider {
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  place-items: center;
+  margin-bottom: 2rem;
+}
+
+.img-slider {
+  width: 60%;
+  height: 600px;
+  background-image: url(../img/hero/slider1.jpg);
+  background-size: 100% 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  animation: changeImage 15s linear infinite;
+}
+
+@keyframes changeImage {
+  0% {
+    background-image: url(../img/hero/slider1.jpg);
+  }
+  50% {
+    background-image: url(../img/hero/slidera2.webp);
+  }
+  100% {
+    background-image: url(../img/hero/slidera3.webp);
+  }
+}
+
+/* NEW COLOR SECTION */
+
+.new-color-text {
+  text-align: center;
+}
+
+.new-color-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.new-color-img {
+  width: 90%;
+  height: 70%;
+}
+
+/* specs section */
+.special-section {
+  background-image: url(../img/specs/specs-background.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.specs-header-text {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.special-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 5rem;
+}
+
+.specs-img {
+  align-self: center;
+}
+
+.specs-img img {
+  width: 100%;
+}
+
+.specs-text {
+  font-size: 1.8rem;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.specs-list {
+  color: white;
+  list-style: none;
+  line-height: 2.8;
+  font-size: 1.6rem;
+}
+
+/* our tumblers section */
+
+.our-tummblers-text {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.gallery-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4rem;
+  gap: 2rem;
+}
+
+.tumblers-img img {
+  width: 90%;
+  height: 90%;
+}
+
+/* product section */
+
+.tumbler-products {
+  height: 100vh;
+  margin: 3rem 0rem;
+}
+
+.buy-now-text {
+  color: black;
+  text-align: center;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-details {
+  text-align: center;
+}
+
+.product-content {
+  margin-bottom: 1rem;
+}
+
+.product-list {
+  list-style: none;
+}
+
+.product-img img {
+  width: 100%;
+  height: 250px;
+}
+
+.buy-btn {
+  width: 50px;
+  height: 25px;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+/* footer section */
+
+.footer-details {
+  background-color: #fff9f9;
+  padding: 0.6rem 0rem 0.4rem 1rem;
+}
+
+.footer-list {
+  font-size: 0.6rem;
+  list-style: none;
+  line-height: 1.2;
+  color: gray;
+}

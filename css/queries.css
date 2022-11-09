@@ -1,0 +1,207 @@
+/* below 768px tablet */
+@media (max-width: 48em) {
+  .slider {
+    height: 70vh;
+  }
+
+  .img-slider {
+    width: 60%;
+    height: 400px;
+  }
+
+  /* new color section */
+  .new-color-container {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+
+  .new-color-img {
+    width: 100%;
+    height: 60%;
+  }
+
+  /* spes section */
+
+  .specs-header-text {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .special-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 2rem;
+    column-gap: 2rem;
+  }
+
+  .specs-text {
+    font-size: 1.8rem;
+  }
+
+  .specs-list {
+    line-height: 1.6;
+    font-size: 1.6rem;
+  }
+
+  /* gallery section */
+
+  .gallery-container {
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* product section */
+
+  .buy-now-text {
+    margin-bottom: 2rem;
+  }
+
+  .product-container {
+    padding: 2rem;
+    row-gap: 2rem;
+  }
+
+  .product-img img {
+    width: 100%;
+    height: 190px;
+  }
+
+  .tumbler-products {
+    height: 100vh;
+    margin-bottom: 10rem;
+  }
+}
+
+/* below 425px mobile */
+@media (max-width: 27em) {
+  .header-text {
+    font-size: 0.9rem;
+  }
+
+  .tumblers-text {
+    font-size: 1.4rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+
+  /* slider section media */
+
+  .slider {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .img-slider {
+    width: 80%;
+    height: 250px;
+  }
+
+  /* new color section media */
+
+  .new-color {
+    height: 30vh;
+  }
+
+  .new-color-container {
+    padding: 1rem;
+  }
+
+  .new-color-text {
+    font-size: 1rem;
+  }
+
+  .new-color-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+    padding: 0rem;
+    gap: 0.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .new-color-img {
+    width: 100%;
+    height: 70%;
+  }
+
+  /* specs section media */
+
+  .special-section {
+    background-image: url(../img/specs/specs-background.png);
+    background-size: contain;
+    background-position: center center;
+    height: 50vh;
+    margin-bottom: 2rem;
+  }
+
+  .specs-header-text {
+    font-size: 1.1rem;
+  }
+
+  .special-container {
+    padding: 1rem;
+  }
+
+  .specs-text {
+    font-size: 1rem;
+  }
+
+  .specs-list {
+    color: white;
+    list-style: none;
+    line-height: 1.2;
+    font-size: 0.9rem;
+  }
+
+  /* our tumblers section */
+  .our-tummblers-text {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
+
+  .gallery-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  /* product section */
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    padding: 1rem;
+  }
+
+  .buy-now-text {
+    margin-bottom: 2rem;
+  }
+
+  .product-img img {
+    width: 60%;
+    height: 90px;
+  }
+
+  .product-content {
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  /* footer section media */
+  .footer-list {
+    font-size: 0.1rem;
+    line-height: 1;
+  }
+}
